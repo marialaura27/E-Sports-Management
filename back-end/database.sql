@@ -10,5 +10,5 @@ CREATE TABLE jogadores(
 	nome VARCHAR(45) NOT NULL,
 	idade int NOT NULL,
 	time_id int NOT NULL,
-	FOREIGN KEY (time_id) REFERENCES time(id)
+	FOREIGN KEY (time_id) REFERENCES times(id)
 );
